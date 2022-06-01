@@ -1,0 +1,30 @@
+{
+  "slices": {
+    "HeroBanner": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "body": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "buttonText": {
+            "content": "Start free trial today"
+          }
+        },
+        "items": {
+          "features": {
+            "content": "Over 500K customers"
+          }
+        }
+      }
+    }
+  }
+}

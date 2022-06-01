@@ -1,5 +1,110 @@
 {
   "slices": {
-    "components": {}
+    "components": {
+      "hero_banner": {
+        "library": "slices",
+        "id": "hero_banner",
+        "name": "HeroBanner",
+        "description": "HeroBanner",
+        "model": {
+          "id": "hero_banner",
+          "type": "SharedSlice",
+          "name": "HeroBanner",
+          "description": "HeroBanner",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroBanner",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                },
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Body",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph"
+                  }
+                },
+                "buttonText": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {
+                "features": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Features",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "hero_banner",
+            "items": [
+              {
+                "features": "reintermediate clicks-and-mortar infrastructures"
+              },
+              {
+                "features": "leverage value-added e-services"
+              },
+              {
+                "features": "brand 24/365 paradigms"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Reinvent end-to-end platforms",
+                  "spans": []
+                }
+              ],
+              "body": [
+                {
+                  "type": "paragraph",
+                  "text": "Adipisicing incididunt sint do do esse est laboris proident. Deserunt aute qui duis sit in laborum esse reprehenderit officia consectetur. Nisi est enim quis esse nisi non.",
+                  "spans": []
+                }
+              ],
+              "buttonText": "Start free trial today"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/p0gst/Documents/project/react/default-ecomm-setup/.slicemachine/assets/slices/HeroBanner/default/preview.png",
+            "width": 800,
+            "height": 218
+          }
+        }
+      }
+    }
   }
 }
